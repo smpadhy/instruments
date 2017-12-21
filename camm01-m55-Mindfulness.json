@@ -1,0 +1,293 @@
+{
+  "DictionaryID": "a005a1dd-6e28-4a33-8d5b-97eae129a71b",
+  "shortName": "camm01-m55",
+  "DerivedFrom": "camm01-m84",
+  "Name": "Mindfulness",
+  "Description": "MindfulnessMeasure",
+  "title": "Mindfulness",
+  "author": "smpadhy",
+  "fields": [
+    {
+      "id": 2110314,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "subjectkey",
+      "type": "GUID",
+      "renderType": "text",
+      "size": null,
+      "description": "The NDAR Global Unique Identifier (GUID) for research subject",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 2110315,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "src_subject_id",
+      "type": "String",
+      "renderType": "text",
+      "size": 20,
+      "description": "Subject ID how it's defined in lab/project",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 2110316,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 3,
+      "dataElementId": 4,
+      "name": "interview_age",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Age in months at the time of the interview/test/sampling/imaging.",
+      "valueRange": null,
+      "notes": "Age is rounded to chronological month. If the research participant is 15-days-old at time of interview, the appropriate value would be 0 months. If the participant is 16-days-old, the value would be 1 month."
+    },
+    {
+      "id": 2110317,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 4,
+      "dataElementId": 3,
+      "name": "interview_date",
+      "type": "Date",
+      "renderType": "date",
+      "size": null,
+      "description": "Date on which the interview/genetic test/sampling/imaging/biospecimen was completed. MM/DD/YYYY",
+      "valueRange": null,
+      "notes": "Required field"
+    },
+    {
+      "id": 2110318,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 5,
+      "dataElementId": 10,
+      "name": "gender",
+      "type": "String",
+      "renderType": "radio",
+      "size": 20,
+      "description": "Sex of the subject",
+      "valueRange": "M;F",
+      "notes": "M = Male; F = Female"
+    },
+    {
+      "id": 2110319,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "phq1",
+        "phq9a"
+      ],
+      "filterElement": "1",
+      "position": 6,
+      "dataElementId": 1315417,
+      "name": "phq_1",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Little interest or pleasure in doing things",
+      "valueRange": "0::2",
+      "notes": "0=Not bothered at all; 1=Bothered a little; 2=Bothered a lot"
+    },
+    {
+      "id": 2110320,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "phq2",
+        "phq9b"
+      ],
+      "filterElement": "1",
+      "position": 7,
+      "dataElementId": 1315411,
+      "name": "phq_2",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Feeling down, depressed, or hopeless",
+      "valueRange": "0::2",
+      "notes": "0=Not bothered at all; 1=Bothered a little; 2=Bothered a lot"
+    },
+    {
+      "id": 2110321,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "phq3",
+        "phq9c"
+      ],
+      "filterElement": "1",
+      "position": 8,
+      "dataElementId": 1315413,
+      "name": "phq_3",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Trouble falling or staying asleep, or sleeping too much",
+      "valueRange": "0::2",
+      "notes": "0=Not bothered at all; 1=Bothered a little; 2=Bothered a lot"
+    },
+    {
+      "id": 2110322,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "phq4"
+      ],
+      "filterElement": "1",
+      "position": 9,
+      "dataElementId": 1315412,
+      "name": "phq_4",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Feeling tired or having little energy",
+      "valueRange": "0::2",
+      "notes": "0=Not bothered at all; 1=Bothered a little; 2=Bothered a lot"
+    },
+    {
+      "id": 2110323,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "phq5"
+      ],
+      "filterElement": "1",
+      "position": 10,
+      "dataElementId": 1315419,
+      "name": "phq_5",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Poor appetite or overeating",
+      "valueRange": "0::2",
+      "notes": "0=Not bothered at all; 1=Bothered a little; 2=Bothered a lot"
+    },
+    {
+      "id": 2130058,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "lw_phq8score"
+      ],
+      "filterElement": "1",
+      "position": 16,
+      "dataElementId": 1330879,
+      "name": "phqscore",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Total Score PHQ",
+      "valueRange": null,
+      "notes": "phq_1+phq_2+phq_3+phq_4+phq_5+phq_6+phq_7+phq_8; greater than or equal to 10 consistent with current depression"
+    },
+    {
+      "id": 2130059,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "asite",
+        "siteid"
+      ],
+      "filterElement": null,
+      "position": 17,
+      "dataElementId": 16632,
+      "name": "site",
+      "type": "String",
+      "renderType": "text",
+      "size": 100,
+      "description": "Site",
+      "valueRange": null,
+      "notes": "Study Site"
+    },
+    {
+      "id": 2130060,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "aclinic"
+      ],
+      "filterElement": "1",
+      "position": 18,
+      "dataElementId": 1289260,
+      "name": "clinicid",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Clinic ID",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 2130061,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "rand"
+      ],
+      "filterElement": "1",
+      "position": 19,
+      "dataElementId": 1317898,
+      "name": "ran002",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Was the subject randomized?",
+      "valueRange": "0::3; -9",
+      "notes": "0=No; 1=Yes; -9=unknown; 2=No meds; 3=No community care"
+    },
+    {
+      "id": 2130062,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "lof",
+        "lof_mini",
+        "los_mini"
+      ],
+      "filterElement": "1",
+      "position": 20,
+      "dataElementId": 1283017,
+      "name": "days_baseline",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Days since baseline",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 2130962,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 21,
+      "dataElementId": 1330839,
+      "name": "suicidalityharmself_scale",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "On a scale of 1 to 7, what is your intent to harm yourself right now",
+      "valueRange": "1::7; -1",
+      "notes": "1=lower; 7=high"
+    }
+  ]
+}
