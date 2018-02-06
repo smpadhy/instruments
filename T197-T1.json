@@ -1,0 +1,26 @@
+{
+  "DictionaryID": "92d39594-eb58-4177-9cdb-282a10bbc673",
+  "shortName": "T197",
+  "DerivedFrom": "",
+  "Name": "T1",
+  "Description": "D1",
+  "title": "T1",
+  "author": "smpadhy",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "field1",
+      "description": "New field",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    }
+  ]
+}
