@@ -1,0 +1,56 @@
+{
+  "DictionaryID": "4d499298-6b8e-4f08-9907-26ec230e14da",
+  "shortName": "V1280-m92",
+  "DerivedFrom": "V1280-m29",
+  "Name": "V12",
+  "Description": "Test12",
+  "title": "V12",
+  "author": "smpadhy",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new123",
+      "type": "string",
+      "renderType": "text",
+      "description": "Nfield1",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1520358801012",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1520358801012",
+      "type": "string",
+      "renderType": "text",
+      "description": "Is this a question",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1520359280928",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1520359280928",
+      "description": "Another question",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    }
+  ]
+}
