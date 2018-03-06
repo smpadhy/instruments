@@ -1,0 +1,41 @@
+{
+  "DictionaryID": "4cd599d8-37dd-4f1d-812d-469df481aed4",
+  "shortName": "V1280-m29",
+  "DerivedFrom": "V1280",
+  "Name": "V12",
+  "Description": "Test12",
+  "title": "V12",
+  "author": "smpadhy",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new123",
+      "type": "string",
+      "renderType": "text",
+      "description": "Nfield1",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1520358801012",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1520358801012",
+      "type": "string",
+      "renderType": "text",
+      "description": "Is this a question",
+      "valueRange": null,
+      "notes": null
+    }
+  ]
+}
