@@ -1,0 +1,56 @@
+{
+  "DictionaryID": "ad6587bc-9349-45f4-914f-78f49917ad70",
+  "shortName": "Instrument A71",
+  "DerivedFrom": "",
+  "Name": "Instrument A",
+  "Description": "Test",
+  "title": "Instrument A",
+  "author": "smpadhy",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "Field1",
+      "description": "Field1",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1521220042443",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "Field2",
+      "description": "Field2",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1521220077992",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "Description",
+      "description": "Description",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "textarea",
+      "notes": null
+    }
+  ]
+}
