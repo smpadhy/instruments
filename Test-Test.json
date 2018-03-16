@@ -1,0 +1,56 @@
+{
+  "DictionaryID": "b52510d3-6594-4020-b1df-ec6f8ad5e2a5",
+  "shortName": "Test Plan67",
+  "DerivedFrom": "",
+  "Name": "Test Plan",
+  "Description": "Testing",
+  "title": "Test Plan",
+  "author": "smpadhy",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new123",
+      "description": "New field",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1521228837183",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1521228837183",
+      "description": "New number",
+      "valueRange": null,
+      "type": "number",
+      "renderType": "number",
+      "notes": null
+    },
+    {
+      "id": "new1521228842165",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1521228842165",
+      "description": "New textarea",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "textarea",
+      "notes": null
+    }
+  ]
+}
