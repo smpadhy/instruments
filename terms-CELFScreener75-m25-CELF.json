@@ -1,0 +1,41 @@
+{
+  "DictionaryID": "20284b7c-7f9a-4d7f-8b47-2b7a6e3f2a21",
+  "shortName": "CELF Screener75-m25",
+  "DerivedFrom": "CELF Screener75",
+  "Name": "CELF Screener",
+  "Description": "CELF screener assessment",
+  "title": "CELF Screener",
+  "author": "smpadhy",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new123",
+      "type": "string",
+      "renderType": "text",
+      "description": "New field",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1521467718389",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1521467718389",
+      "description": "New boolean",
+      "valueRange": null,
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
